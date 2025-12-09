@@ -3,10 +3,9 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": false
+  "packageGroups": {
+    "all-packages": {
+      "matchPackagePatterns": ["*"]
     }
-  ]
+  }
 }

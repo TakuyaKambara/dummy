@@ -1,0 +1,13 @@
+{
+  "name": "dummy-test-project",
+  "version": "1.0.0",
+  "description": "Test project for Dependabot and Renovate",
+  "dependencies": {
+    "lodash": "4.17.10",
+    "express": "4.16.0",
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "webpack": "4.0.0"
+  }
+}
